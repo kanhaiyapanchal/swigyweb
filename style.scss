@@ -1,0 +1,199 @@
+
+@import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+$primary-color:#fc8019;
+.right-head-image{
+    float: right;
+    height: 530px;
+    width: 92%;
+
+}
+.left-div{
+    padding: 3rem;
+
+    height: auto;
+    .btn-outline-dark{
+        width: 19%;
+        height: 2%;
+        border-radius: 0%;
+    }
+
+    .btn-outline-dark:hover{
+        background-color: white;
+        color: black;
+    }
+    .btn-find-food{
+        background-color: #fc8019;
+    }
+    .btn-find-food:hover{
+        background-color: #fc8019;
+    }
+    .form-control{
+        border-radius: 0%;
+    }
+    .form-control:hover, .form-control:focus{
+        border-color: $primary-color;
+    }
+}
+
+// service section 
+#service-section{
+    background-color: #2b1e17;
+    color: white;
+}
+
+// mobile app section
+#mobile-app-section .mobileApp{
+    .img-fluid{
+        height: 50px !important;
+        
+    }
+}
+
+
+.primary-color{
+    font-size: 15px;
+    color: rgb(231, 128, 4)
+}
+// Navbar section-------------------------
+
+.navbar-brand {
+  height: auto;
+  width: 170px;
+}
+.nav-item {
+  color: black;
+  margin-right: 3.5rem;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: $primary-color;
+}
+.svg-class:hover {
+  stroke: $primary-color;
+}
+
+._2MSid {
+  fill: #fff;
+  stroke-width: 2px;
+  stroke: #282c3f;
+}
+._2vS77 {
+  padding: 4px;
+  color: white;
+  position: absolute;
+  top: 52%;
+  left: 91%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-outline-dark {
+  width: 19%;
+  height: 2%;
+  border-radius: 0%;
+}
+
+.btn-outline-dark:hover {
+  background-color: white;
+  color: black;
+}
+.btn-find-food {
+  background-color: #fc8019;
+}
+.btn-find-food:hover {
+  background-color: #fc8019;
+}
+.form-control {
+  border-radius: 0%;
+}
+.form-control:hover,
+.form-control:focus {
+  border-color: $primary-color;
+}
+
+// banner section
+#banner-section {
+  background-color: #494d60;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.input-width {
+  width: 36% !important;
+}
+@media(max-width:700px){
+    .input-width {
+        width: 100% !important;
+      }
+}
+
+// card section
+.cart-list {
+  font-size: 10px;
+  padding: 2px;
+  margin: 0px;
+
+}
+.star-li {
+  padding: 5px;
+  color: white;
+  background-color: $primary-color;
+}
+.card{
+    padding: 1rem;
+    width: 18rem;
+    border-radius: 0px;
+    border: 1px;
+}
+.card:hover{
+    padding: 1rem;
+    width: 18rem;
+    border-radius: 0px;
+    border: 1px solid rgba(12, 11, 11, 0.193);
+    
+}
+div .list-group-item{
+    border: none;
+    margin-left: 1rem;
+}
+
+
+// ABOUT section 
+.active>.page-link, .page-link.active {
+    color: white;
+    background-color:black ;
+    border-color:black;
+}
+.page-margin{
+    margin-left: 10px;
+    
+}
+.page-link{
+    color: #282c3f;
+}
+.bottom-list{
+    margin-left: 8rem !important;
+}
+
+
+// footer section 
+footer .list-item:hover{
+    font-weight: bold;
+    
+}
+.apps-logo{
+    transition:5s;
+
+}
+.apps-logo:hover{
+    transform: 2s;
+    width: 203px;
+    height: 67px;
+}
+.botton-icon{
+    padding: 15px;
+}
